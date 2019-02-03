@@ -20,6 +20,7 @@ export default (props) => {
     <Fragment>
       <AppContainer>
         <SideBar />
+        <div>COucou</div>
         <ContentContainer>
           {props.children}
         </ContentContainer>
